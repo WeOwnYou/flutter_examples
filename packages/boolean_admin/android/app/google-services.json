@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "865150270001",
+    "firebase_url": "https://boolean-admin-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "boolean-admin",
+    "storage_bucket": "boolean-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865150270001:android:d3f537299ff1b9cec53310",
+        "android_client_info": {
+          "package_name": "com.example.boolean_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865150270001-tkhi4u73h00qfc1rgoqpoip2u89t1l9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPmyfminUVnien2c6om34B0LT-kZGE42Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865150270001-tkhi4u73h00qfc1rgoqpoip2u89t1l9l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "865150270001-hsnm3lmnb1mqavtoaij6hdcapni3h26i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.booleanAdmin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/examples/sliver_bottom_sheet/sliver_bottom_sheet.dart';
-import 'examples/sliver_bottom_sheet/sliver_bottom_sheet2.dart';
-import 'examples/sliver_bottom_sheet/sliver_bottom_sheet3.dart';
+import 'package:gps_app/gps_app.dart';
+import 'package:sliver_bottom_sheets/sliver_bottom_sheets.dart';
+import 'package:workers_tree/workers_tree.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -12,24 +12,24 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: const Text('Examples'),),
       body: ListView(
         children: [
-          ListTile(title: const Text('Bottom sheet default'), onTap: (){
+          ListTile(title: const Text('Sliver Bottom Sheets'), onTap: (){
             Navigator.of(context).push(
               MaterialPageRoute (
-                builder: (BuildContext context) => const SliverBottomSheet(),
+                builder: (BuildContext context) => const SliverBottomSheets(),
               ),
             );
           },),
-          ListTile(title: const Text('Bottom sheet experiments with scroll controller'), onTap: (){
+          ListTile(title: const Text('Gps App'), onTap: (){
             Navigator.of(context).push(
               MaterialPageRoute (
-                builder: (BuildContext context) => const SliverBottomSheet2(),
+                builder: (BuildContext context) => const GpsApp(),
               ),
             );
           },),
-          ListTile(title: const Text('Bottom sheet with 2 identical lists'), onTap: (){
+          ListTile(title: const Text('Workers Tree'), onTap: (){
             Navigator.of(context).push(
               MaterialPageRoute (
-                builder: (BuildContext context) => const SliverBottomSheet3(),
+                builder: (BuildContext context) => const WorkersTree(),
               ),
             );
           },),
