@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gps_app/gps_app.dart';
+import 'package:method_channel_and_platform_view/main.dart';
 import 'package:sliver_bottom_sheets/sliver_bottom_sheets.dart';
 import 'package:workers_tree/workers_tree.dart';
 
@@ -33,6 +34,13 @@ class HomePage extends StatelessWidget {
               ),
             );
           },),
+          ListTile(title: const Text('Method Channel And Platform View'), onTap: (){
+            Navigator.of(context).push(
+              MaterialPageRoute (
+                builder: (BuildContext context) => const MethodChannelAndPlatformView(),
+              ),
+            );
+          },)
         ],
       ),
     );

@@ -20,6 +20,8 @@ dependencies:
     path: packages/gps_app
   workers_tree:
     path: packages/workers_tree
+  method_channel_and_platform_view:
+    path: packages/method_channel_and_platform_view
 
 dev_dependencies:
   flutter_test:
